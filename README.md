@@ -21,7 +21,7 @@ Cкрипт для сокращения ссылок через сервис `cl
 
 #### Примеры:
 
-- Введите ссылку: `https://example.com/very/long/path` ->
+- Введите ссылку: `https://example.com/very/long/path` →
 Короткая ссылка: `https://clc.li/xyz789`
-- Введите ссылку: `https://clc.li/xyz789` ->
+- Введите ссылку: `https://clc.li/xyz789` →
 URL: `https://clc.li/xyz789` total clicks: 42

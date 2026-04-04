@@ -30,8 +30,8 @@ def count_clicks(token, url):
         full_info = response.json()
         for click in full_info['data']['urls']:
             if click['shorturl'] == url:
-                text_template = f"URL: {click['shorturl']} total clicks: {click['clicks']}"
-        return text_template
+                text = f"URL: {click['shorturl']} - clicks: {click['clicks']}"
+        return text
 
     else:
         raise requests.exceptions.HTTPError(response=edited_link)
